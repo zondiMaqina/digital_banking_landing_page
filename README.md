@@ -7,8 +7,11 @@ A simple layout for a banking service landing page made from html and css
 
 2. How to manipulate position of background-image
 
+3. How to make anchor tag direct to new tab
+
 ## Solutions
 
+3. To make anchor direct to new tab include the `rel='noopner noreferer'` attribute
 
 # Technologies
 
