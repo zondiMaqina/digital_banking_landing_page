@@ -3,4 +3,39 @@
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: clamp(10px, 2vw, 30px) 0;
+    gap: 20px;
+}
+
+header ul.navigation {
+    display: flex;
+    border: 1px solid;
+    gap: clamp(25px, 3vw, 50px);
+}
+
+section.top-content {
+    display: flex;
+}
+
+section article {
+    flex-grow: 1;
+}
+
+section.top-content article img {
+    max-inline-size: 100%;
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+    z-index: -1;
 }
